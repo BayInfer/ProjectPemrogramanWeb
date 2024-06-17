@@ -1,0 +1,85 @@
+/* CSS untuk mengatur tata letak dan gaya */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: row;
+    width: 800px; /* Sesuaikan lebar formulir dan gambar */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b4b4b4;
+
+}
+
+.registration-content {
+    flex: 1;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.registration-image {
+    width: 400px;
+    height: 540px;
+    border-radius: 10px;
+}
+
+.registration-form h1 {
+    text-align: left;
+}
+
+.login {
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px ;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px ;
+    border: 1px solid rgba(0, 0, 0, 0.5); /* Warna border hitam dengan tingkat transparansi 50% */
+}
+
+
+img {
+    width: 400px; /* Membuat gambar mengisi lebar kontainernya */
+    padding: 0px;
+    height: auto; /* Mengatur ketinggian agar gambar tidak terdistorsi */
+    border-top-right-radius: 10px; /* Radius sudut kanan atas */
+    border-bottom-right-radius: 10px; /* Radius sudut kanan bawah */
+}
+
+
+
